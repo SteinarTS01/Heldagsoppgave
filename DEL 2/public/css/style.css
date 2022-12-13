@@ -1,0 +1,28 @@
+body {
+    
+    text-align: center;
+}
+input, button {
+    background-color: white;
+    padding-top: 8px;
+    margin-top: 5px;
+    border: none;
+    font-size: 18px
+    
+    
+  }
+
+h1, p, label, .radio, li{
+    color: white;
+    
+}
+h1 {
+    margin: 10px;
+}
+.innhold {
+    background-color: #AE0000;
+    margin: 25%;
+    margin-top: 10px;
+    margin-bottom: 600px;
+    padding: 30px;
+}

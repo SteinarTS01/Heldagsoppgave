@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ditt ønske er registrert</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="innhold">
+    <h1>Ønskelister</h1>
+    <p id="p1">Antall barn: </p>
+    <p id="p2">Antall slemme barn: In progress</p>
+    <hr>
+
+    <button>Slett alle "slemme-barn" lister</button><br>
+    <button style="padding-left: 67px; padding-right: 67px; margi-top: 20px;">Slett alle lister</button>
+
+    <hr>
+    <script>counter = 0;</script>
+    {{#each svarTabell}}
+            <h1>{{this.navn}}</h1>
+            <p>{{this.snillellerslem}}
+            </p>
+            <ol>{{#each ønske}}<li>{{this}}</li> 
+            {{/each}}</ol>
+    
+
+     <script>document.getElementById("p1").innerHTML = "Antall barn:" + ({{@index}});</script>
+    {{/each}}
+    
+    {{> fremsideknapp}}
+    </div>
+</body>
+</html>

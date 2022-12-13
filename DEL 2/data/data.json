@@ -1,0 +1,38 @@
+{
+  "svarTabell": [
+    {
+      "navn": "Ruben",
+      "snillellerslem": "slem",
+      "ønske": ["PC", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "navn": "Thomas",
+      "snillellerslem": "slem",
+      "ønske": [
+        "10 Kg sjokolade",
+        "Bil",
+        "Båt",
+        "Fly",
+        "Yacht",
+        "Bønes",
+        "Nye ski",
+        "Et skitrekk",
+        "Hytte",
+        "10000 Milliarder kr"
+      ]
+    },
+    {
+      "navn": "Håvard",
+      "snillellerslem": "slem",
+      "ønske": ["Ny pc", "", "", "", "", "", "", "", "", ""]
+    },
+    { "navn": "Thomas", "ønske": ["ads", "", "", "", "", "", "", "", "", ""] },
+    {
+      "navn": "Thomas",
+      "snillellerslem": "slem",
+      "ønske": ["ads", "", "", "", "", "", "", "", "", ""]
+    },
+    { "navn": "Håvard", "ønske": ["", "", "", "", "", "", "", "", "", ""] }
+  ],
+  "_locals": {}
+}

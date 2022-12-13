@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streampåmelding</title>
+    <link rel="stylesheet" href="/css/css.css">
+</head>
+<body>
+    <script>
+        let counter = 0;
+    </script>
+    <div class="klasse">
+    <h1>Påmeldte</h1>
+     {{#each svarTabell}}
+        <p>{{this.fornavn}} {{this.etternavn}} {{this.klasse}}</p>
+        <script>
+            counter++;
+        </script>
+    {{/each}}
+           
+    <script>
+        const para = document.createElement("p");
+        para.innerText = "Påmeldte: " + counter;
+        document.body.appendChild(para);
+        
+    </script>
+
+   
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Et skjema</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="innhold">
+    <h1>Ønskeliste</h1>
+
+    <form action="/sendinn" method="POST">
+        <label for="navn">Navn:</label>
+        <input type="text" name="navn" placeholder="Ditt navn" required><br><br>
+
+        <label for="snillellerslem">Snill eller slem?</label><br>
+        <div class= "radio">
+        <input type="radio" name="snillellerslem" value="snill" checked>Snill
+        <input type="radio" name="snillellerslem" value="slem">Slem<br><br>
+        </div>
+        <label for="ønske">Ønsker</label><br>
+        <input type="text" name="ønske" placeholder="Ønske 1" required><br>
+        <input type="text" name="ønske" placeholder="Ønske 2"><br>
+        <input type="text" name="ønske" placeholder="Ønske 3"><br>
+        <input type="text" name="ønske" placeholder="Ønske 4"><br>
+        <input type="text" name="ønske" placeholder="Ønske 5"><br>
+        <input type="text" name="ønske" placeholder="Ønske 6"><br>
+        <input type="text" name="ønske" placeholder="Ønske 7"><br>
+        <input type="text" name="ønske" placeholder="Ønske 8"><br>
+        <input type="text" name="ønske" placeholder="Ønske 9"><br>
+        <input type="text" name="ønske" placeholder="Ønske 10"><br>
+
+        <button style="padding-left: 76px; padding-right: 76px;">Send inn</button>
+        
+    </form>
+    <form action="/fremsiden.html">
+        <br><input type="submit" value="Gå til fremsiden" />
+    </form>
+    </div>
+</body>
+</html>
